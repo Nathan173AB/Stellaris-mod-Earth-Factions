@@ -1,0 +1,509 @@
+"Islamic State of Interstellar Spheres"
+={
+	key="Islamic State of Interstellar Spheres"
+	name_list="HUM3"
+	ship_prefix="UNS"
+	species_name="Human"
+	species_plural="Humans"
+	species_class="HUM"
+	species_adjective="Human"
+	species_bio=""
+	portrait="human"
+	name="Islamic State of Interstellar Spheres"
+	adjective="ISIS"
+	government="military_dictatorship"
+
+	flags={ jihadists }
+
+	ftl=warp
+	weapon="tech_missiles_1"
+	planet_name="Al-Raqqah"
+	planet_class="pc_continental"
+	system_name="Syria"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="earth_flags"
+			file="isis.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"spectracolor1990"
+			"spectracolor1990"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Katya Sorokin"
+		portrait="human_male_01"
+		texture=0
+		hair=4
+		clothes=2
+	}
+	spawn_as_fallen=no
+	spawn_enabled=always
+	ethic="ethic_fanatic_militarist"
+	ethic="ethic_spiritualist"
+	trait="trait_quick_learners"
+	trait="trait_nomadic"
+}
+"People's Republic of Korea"
+={
+	key="People's Republic of Korea"
+	name_list="HUM3"
+	ship_prefix="UNS"
+	species_name="Human"
+	species_plural="Humans"
+	species_class="HUM"
+	species_adjective="Human"
+	species_bio=""
+	portrait="human"
+	name="People's Republic of Korea"
+	adjective="Pyongyang"
+	government="despotic_empire"
+
+	flags={  }
+
+	ftl=wormhole
+	weapon="tech_missiles_1"
+	planet_name="Pyongyang Prime"
+	planet_class="pc_continental"
+	system_name="Pyongyang"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="earth_flags"
+			file="pyongyang.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"spectracolor1343"
+			"spectracolor21"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Tao Situ"
+		portrait="human_male_02"
+		texture=0
+		hair=5
+		clothes=3
+	}
+	spawn_as_fallen=no
+	spawn_enabled=always
+	ethic="ethic_collectivist"
+	ethic="ethic_xenophobe"
+	ethic="ethic_militarist"
+	trait="trait_quick_learners"
+	trait="trait_nomadic"
+}
+"Confederate Stars of Jefferson"
+={
+	key="Confederate Stars of Jefferson"
+	name_list="HUM3"
+	ship_prefix="UNS"
+	species_name="Human"
+	species_plural="Humans"
+	species_class="HUM"
+	species_adjective="Human"
+	species_bio=""
+	portrait="human"
+	name="Confederate Stars of Jefferson"
+	adjective="Confederate"
+	government="indirect_democracy"
+
+	flags={  }
+
+	ftl=hyperdrive
+	weapon="tech_missiles_1"
+	planet_name="Richmond"
+	planet_class="pc_continental"
+	system_name="Virginia"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="earth_flags"
+			file="confederate.dds"
+		}
+		background={
+			category="backgrounds"
+			file="croixdiagonale.dds"
+		}
+		colors={
+			"spectracolor1330"
+			"spectracolor14"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Joshua Keeler"
+		portrait="human_male_04"
+		texture=0
+		hair=9
+		clothes=4
+	}
+	spawn_as_fallen=no
+	spawn_enabled=always
+	ethic="ethic_individualist"
+	ethic="ethic_xenophobe"
+	ethic="ethic_spiritualist"
+	trait="trait_quick_learners"
+	trait="trait_nomadic"
+}
+"United Stars of America"
+={
+	key="United Stars of America"
+	name_list="HUM3"
+	ship_prefix="UNS"
+	species_name="Human"
+	species_plural="Humans"
+	species_class="HUM"
+	species_adjective="Human"
+	species_bio=""
+	portrait="human"
+	name="United Stars of America"
+	adjective="Union"
+	government="indirect_democracy"
+
+	flags={  }
+
+	ftl=warp
+	weapon="tech_mass_drivers_1"
+	planet_name="Columbia"
+	planet_class="pc_continental"
+	system_name="Washington"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="earth_flags"
+			file="union.dds"
+		}
+		background={
+			category="backgrounds"
+			file="crosshatched.dds"
+		}
+		colors={
+			"spectracolor1138"
+			"spectracolor14"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Antonia Gomez"
+		portrait="human_female_03"
+		texture=0
+		hair=2
+		clothes=0
+	}
+	spawn_as_fallen=no
+	spawn_enabled=always
+	ethic="ethic_fanatic_individualist"
+	ethic="ethic_xenophile"
+	trait="trait_quick_learners"
+	trait="trait_nomadic"
+}
+"Native American Remnants"
+={
+	key="Native American Remnants"
+	name_list="HUM3"
+	ship_prefix="UNS"
+	species_name="Human"
+	species_plural="Humans"
+	species_class="HUM"
+	species_adjective="Human"
+	species_bio=""
+	portrait="human"
+	name="Native American Remnants"
+	adjective="Native American"
+	government="peaceful_bureaucracy"
+
+	flags={  }
+
+	ftl=wormhole
+	weapon="tech_mass_drivers_1"
+	planet_name="Abya Yala"
+	planet_class="pc_continental"
+	system_name="Pachamama"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="earth_flags"
+			file="native_american.dds"
+		}
+		background={
+			category="backgrounds"
+			file="horizontal.dds"
+		}
+		colors={
+			"spectracolor46"
+			"spectracolor211"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Motlalentwa Madaki"
+		portrait="human_male_03"
+		texture=0
+		hair=5
+		clothes=3
+	}
+	spawn_as_fallen=no
+	spawn_enabled=always
+	ethic="ethic_collectivist"
+	ethic="ethic_pacifist"
+	ethic="ethic_spiritualist"
+	trait="trait_quick_learners"
+	trait="trait_nomadic"
+}
+"Canadian Republics"
+={
+	key="Canadian Republics"
+	name_list="HUM3"
+	ship_prefix="UNS"
+	species_name="Human"
+	species_plural="Humans"
+	species_class="HUM"
+	species_adjective="Human"
+	species_bio=""
+	portrait="human"
+	name="Canadian Republics"
+	adjective="Canadian"
+	government="moral_democracy"
+
+	flags={  }
+
+	ftl=warp
+	weapon="tech_missiles_1"
+	planet_name="Ottawa"
+	planet_class="pc_continental"
+	system_name="Canada"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="earth_flags"
+			file="canadian.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"spectracolor25"
+			"spectracolor25"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Tara Shannon"
+		portrait="human_female_04"
+		texture=0
+		hair=8
+		clothes=0
+	}
+	spawn_as_fallen=no
+	spawn_enabled=always
+	ethic="ethic_individualist"
+	ethic="ethic_xenophile"
+	ethic="ethic_pacifist"
+	trait="trait_quick_learners"
+	trait="trait_nomadic"
+}
+"Empire of Japan"
+={
+	key="Empire of Japan"
+	name_list="HUM3"
+	ship_prefix="UNS"
+	species_name="Human"
+	species_plural="Humans"
+	species_class="HUM"
+	species_adjective="Human"
+	species_bio=""
+	portrait="human"
+	name="Empire of Japan"
+	adjective="Japanese"
+	government="military_dictatorship"
+
+	flags={  }
+
+	ftl=wormhole
+	weapon="tech_lasers_1"
+	planet_name="Kyoto"
+	planet_class="pc_continental"
+	system_name="Japan"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="earth_flags"
+			file="japanese.dds"
+		}
+		background={
+			category="backgrounds"
+			file="soleillevant.dds"
+		}
+		colors={
+			"spectracolor2017"
+			"spectracolor14"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Tendaji Msibi"
+		portrait="human_male_02"
+		texture=0
+		hair=8
+		clothes=2
+	}
+	spawn_as_fallen=no
+	spawn_enabled=always
+	ethic="ethic_xenophobe"
+	ethic="ethic_fanatic_militarist"
+	trait="trait_quick_learners"
+	trait="trait_nomadic"
+}
+"Republic of Scandinavia"
+={
+	key="Republic of Scandinavia"
+	name_list="HUM3"
+	ship_prefix="UNS"
+	species_name="Human"
+	species_plural="Humans"
+	species_class="HUM"
+	species_adjective="Human"
+	species_bio=""
+	portrait="human"
+	name="Republic of Scandinavia"
+	adjective="Scandinavian"
+	government="direct_democracy"
+
+	flags={  }
+
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Stockholm"
+	planet_class="pc_continental"
+	system_name="Sweden"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="earth_flags"
+			file="scandinavian.dds"
+		}
+		background={
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors={
+			"spectracolor1187"
+			"spectracolor329"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Manon Tremblay"
+		portrait="human_female_04"
+		texture=0
+		hair=4
+		clothes=3
+	}
+	spawn_as_fallen=no
+	spawn_enabled=always
+	ethic="ethic_individualist"
+	ethic="ethic_pacifist"
+	ethic="ethic_materialist"
+	trait="trait_quick_learners"
+	trait="trait_nomadic"
+}
+"Kingdom of Egypt"
+={
+	key="Kingdom of Egypt"
+	name_list="HUM3"
+	ship_prefix="UNS"
+	species_name="Human"
+	species_plural="Humans"
+	species_class="HUM"
+	species_adjective="Human"
+	species_bio=""
+	portrait="human"
+	name="Kingdom of Egypt"
+	adjective="Egyptian"
+	government="divine_mandate"
+
+	flags={  }
+
+	ftl=wormhole
+	weapon="tech_lasers_1"
+	planet_name="Thebes"
+	planet_class="pc_continental"
+	system_name="Nile"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="earth_flags"
+			file="egyptian.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"spectracolor256"
+			"spectracolor256"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Mohamed Qasim"
+		portrait="human_male_03"
+		texture=0
+		hair=10
+		clothes=5
+	}
+	spawn_as_fallen=no
+	spawn_enabled=always
+	ethic="ethic_collectivist"
+	ethic="ethic_fanatic_spiritualist"
+	trait="trait_quick_learners"
+	trait="trait_nomadic"
+}

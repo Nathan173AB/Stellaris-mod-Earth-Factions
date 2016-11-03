@@ -1,47 +1,101 @@
-jihadists = { 
-	aggressiveness = 2
-	trade_willingness = 0.75
-	bravery = 2.0
+fanatic_despots = {
+	aggressiveness = 1.5
+	trade_willingness = 0.3
+	bravery = 1.5
 	
-	military_spending = 1.1
-	colony_spending = 1.5	
+	military_spending = 2.0
+	colony_spending = 1.0	
 	
 	federation_acceptance = -50
-	nap_acceptance = -25
-	defensive_pact_acceptance = -50
-	migration_pact_acceptance = 0	
+	nap_acceptance = -50
+	defensive_pact_acceptance = 0
+	migration_pact_acceptance = -100		
 	
 	advanced_start_chance = 50
 	
-	weapon_preferences = weapon_type_kinetic
+	weapon_preferences = weapon_type_explosive
 	armor_ratio = 0.5
-	shields_ratio = 0.4
-	afterburners_ratio = 0.1	
+	shields_ratio = 0.5
+	afterburners_ratio = 0.0	
 	
-	threat_modifier = 1.0
-	threat_others_modifier = 0.2
-	friction_modifier = 1.2
-	
+	threat_modifier = 0.7
+	threat_others_modifier = 0.3
+	friction_modifier = 1.5
+
 	behaviour = {
 		conqueror = yes
 		subjugator = yes
 		liberator = no
 		opportunist = yes
 		slaver = yes
-		uplifter = yes
+		uplifter = no
 		purger = yes
-		infiltrator = yes
 		dominator = yes
-		robot_exploiter = no
+		infiltrator = yes
+		robot_exploiter = yes
 		robot_liberator = no
 		propagator = no
-		ideologue = yes	
+		ideologue = yes
 		multispecies = no
 	}
+
+	
 	allow = {
-               has_country_flag = jihadists
-        }
-        weight_modifier = {
-               weight = 1000			
-        }
+		has_country_flag = "fanatic_despots"
+	}
+	
+	weight_modifier = {
+		weight = 1000
+	}	
+}
+
+rebels = {
+	aggressiveness = 1.1
+	trade_willingness = 0.8
+	bravery = 1.1
+	
+	military_spending = 1.2
+	colony_spending = 1.0	
+	
+	federation_acceptance = -25
+	nap_acceptance = -10
+	defensive_pact_acceptance = -25
+	migration_pact_acceptance = -25		
+	
+	advanced_start_chance = 50
+	
+	weapon_preferences = weapon_type_explosive
+	armor_ratio = 0.6
+	shields_ratio = 0.4
+	afterburners_ratio = 0.0	
+	
+	threat_modifier = 1.5
+	threat_others_modifier = 0.8
+	friction_modifier = 1.0
+
+	behaviour = {
+		conqueror = no
+		subjugator = no
+		liberator = no
+		opportunist = no
+		slaver = yes
+		uplifter = no
+		purger = no
+		dominator = no
+		infiltrator = no
+		robot_exploiter = no
+		robot_liberator = no
+		propagator = yes
+		ideologue = yes
+		multispecies = no
+	}
+
+	
+	allow = {
+		has_country_flag = "rebels"
+	}
+	
+	weight_modifier = {
+		weight = 1000
+	}	
 }

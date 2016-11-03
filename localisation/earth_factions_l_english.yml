@@ -1,5 +1,9 @@
 ﻿l_english:
 
  FLAG_CATEGORY_earth_flags:0 "Earth Flags"
- personality_jihadists:0 "Jihadists"
- personality_jihadists_desc:0 "Jihadists are aggressively committed to the supremacy of their faith and will go to many great lenghts, often violently, to to ensure its spread."
+
+ personality_fanatic_despots:0 "Fanatic Despots"
+ personality_fanatic_despots_desc:0 "Fanatic despots are led by a very oppressive and aggressive state which seeks to establish as much of its rule as it can, wherever it can."
+
+ personality_rebels:0 "Rebels"
+ personality_rebels_desc:0 "Rebels greatly value their independence and will view with suspicion those who impose their will on others, regardless of what that might be."
